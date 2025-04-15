@@ -1,13 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { cardData } from "./lessons";
 
@@ -29,12 +22,11 @@ export default function Home() {
           priority
         />
         <div className="text-center sm:text-left">
-          <h1 className="text-2xl font-bold mb-4">
-            Welcome to Git Course for Beginners!
-          </h1>
-          <p className="text-sm/6 font-[family-name:var(--font-geist-mono)]">
-            This is a cool thing and more
-          </p>
+          <h1 className="text-2xl font-bold mb-4">Welcome to Git Course for Beginners!</h1>
+          <p className="text-sm/6 font-[family-name:var(--font-geist-mono)]">This is a cool thing and more</p>
+          <p className="text-sm/6 font-[family-name:var(--font-geist-mono)]">This is a cool thing and more</p>
+          <p className="text-sm/6 font-[family-name:var(--font-geist-mono)]">This is a cool thing and more</p>
+          <p className="text-sm/6 font-[family-name:var(--font-geist-mono)]">This is a cool thing and more</p>
         </div>
       </main>
 
